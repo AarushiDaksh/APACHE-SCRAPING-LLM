@@ -161,6 +161,9 @@ Example record from `data/llm/HADOOP.jsonl`:
 
 ---
 
-https://www.aarushi.cloud/ <br>
-https://github.com/AarushiDaksh <br>
-https://github.com/AarushiDaksh/APACHE-SCRAPING-LLM.git
+## 10. Author
+
+**Aarushi Daksh**  
+Developer | 
+[GitHub Profile](https://github.com/AarushiDaksh)  |
+[Portfolio](https://www.aarushi.cloud/)
