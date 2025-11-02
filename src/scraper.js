@@ -11,7 +11,7 @@ export async function scrapeProject(project) {
   if (!config.noRaw) ensureDirs(config.rawDir);
   const outPath = `${config.rawDir}/${project}.jsonl`;
 
-  if (!config.quiet) console.log(`\n▶ Scraping ${project}...`);
+  if (!config.quiet) console.log(`\n Scraping ${project}...`);
 
   while (true) {
     const data = await getIssues(project, startAt);
@@ -61,6 +61,6 @@ export async function scrapeProject(project) {
     startAt += config.pageSize;
   }
 
-  if (!config.quiet) console.log(`✅ Done ${project}. Collected: ${written}`);
+  if (!config.quiet) console.log(`Done ${project}. Collected: ${written}`);
   return written;
 }
