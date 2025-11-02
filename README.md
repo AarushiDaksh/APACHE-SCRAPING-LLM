@@ -35,7 +35,7 @@ JIRA_BASE_URL=https://issues.apache.org/jira
 PROJECTS=HADOOP,SPARK,KAFKA
 PAGE_SIZE=100
 
-# parameters needed else you may 
+# parameters needed else you may get large dataset
 MAX_ISSUES=50
 SINCE_DAYS=7
 NO_RAW=false
