@@ -20,7 +20,7 @@ export const config = {
   stateFile: "state.json",
 
   maxIssues: Number(process.env.MAX_ISSUES || "0"), // 0 = no cap
-  updatedSince: sinceFromEnv(),                      // e.g. "2025-10-01" or null
+  updatedSince: sinceFromEnv(),                   
   noRaw: String(process.env.NO_RAW || "false").toLowerCase() === "true",
   quiet: String(process.env.QUIET || "false").toLowerCase() === "true",
 };
